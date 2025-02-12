@@ -43,5 +43,13 @@ export default function Footer() {
                 </ul>
             </div>
         </div>
+        {/* regole barra signup-social link del footer */}
+        <div>
+            <div>
+                <button className="registrationbutton">SIGN-UP NOW!</button>
+            </div>
+
+        </div>
+
     </footer>);
 }

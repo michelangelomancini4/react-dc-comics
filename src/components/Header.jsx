@@ -3,7 +3,7 @@ export default function Header() {
     return (<header>
 
         <div>
-            <span>logo</span>
+            <a href=""><img src="../src/assets/img/dc-logo.png" alt="" /></a>
         </div>
         <div>
             <nav>
