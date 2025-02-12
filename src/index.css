@@ -72,6 +72,31 @@ main {
 
 }
 
+/* regole generali FOOTER */
+
+footer {
+  background-image: url(../src/assets/img/footer-bg.jpg);
+}
+
+/* regole link utili del footer */
+
+.linkutili-footer {
+  display: flex;
+  width: 37%;
+  flex-wrap: wrap;
+  /* DEBUG */
+  /* background-color: yellow; */
+}
+
+.linkutili-footer ul {
+  list-style: none;
+  margin-left: -20px;
+}
+
+.linkutili-footer a {
+  color: gray;
+  text-decoration: none;
+}
 
 
 
@@ -108,7 +133,7 @@ button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 } */
-
+/* 
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
@@ -122,4 +147,4 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
-}
+} */
