@@ -37,9 +37,18 @@ body {
 header {
   background-color: rgb(82, 214, 16);
   height: 130 px;
-  width: 100%;
+  min-width: 100%;
+  display: flex;
+  justify-content: space-between;
   /* padding: 20px; */
   /* text-align: center; */
+}
+
+.lista-nav {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
 }
 
 button {
