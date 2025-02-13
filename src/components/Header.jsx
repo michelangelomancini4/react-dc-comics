@@ -1,18 +1,8 @@
-// Header.jsx
-export default function Header() {
+// Header.jsx (con prop di app.jsx)
 
-    const navLinks = [
-        { tag: "CHARACTERS", url: "#", content: true },
-        { tag: "COMICS", url: "#", content: true },
-        { tag: "MOVIES", url: "#", content: true },
-        { tag: "TV", url: "#", content: true },
-        { tag: "GAMES", url: "#", content: true },
-        { tag: "COLLECTIBLES", url: "#", content: true },
-        { tag: "VIDEOS", url: "#", content: true },
-        { tag: "FANS", url: "#", content: true },
-        { tag: "NEWS", url: "#", content: true },
-        { tag: "SHOP", url: "#", content: true },
-    ];
+export default function Header({ links }) {
+
+
     return (<header>
 
         <div>
@@ -21,7 +11,7 @@ export default function Header() {
         <div>
             <nav>
                 <ul className="lista-nav">
-                    {navLinks.map((link, index) => (
+                    {links.map((link, index) => (
 
                         <li key={index}><a href={link.url}>{link.tag}</a></li>
 
