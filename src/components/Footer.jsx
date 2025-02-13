@@ -44,9 +44,22 @@ export default function Footer() {
             </div>
         </div>
         {/* regole barra signup-social link del footer */}
-        <div>
+        <div className="linkSocial">
             <div>
                 <button className="registrationbutton">SIGN-UP NOW!</button>
+            </div>
+
+            {/* sezione destra sezione linksocial footer */}
+            <div className="follow-us-section">
+                <h2>FOLLOW US</h2>
+
+
+                <a href="https://x.com/discord"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.instagram.com/discord/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.facebook.com/discord"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.youtube.com/discord"><i class="fa-brands fa-youtube"></i></a>
+
+
             </div>
 
         </div>

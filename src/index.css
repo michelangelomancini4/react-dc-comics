@@ -128,12 +128,39 @@ footer {
   text-decoration: none;
 }
 
+/* regole sezione links social */
+
+.linkSocial {
+  height: 150px;
+  background-color: yellow;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+
 
 .registrationbutton {
   color: rgb(26, 173, 40);
   border-color: blue;
   padding: 10px;
   font-weight: bold;
+  margin-left: 20px;
+}
+
+.follow-us-section {
+  display: flex;
+  gap: 30px;
+  margin-right: 30px;
+}
+
+.follow-us-section h2 {
+  color: darkcyan;
+}
+
+.follow-us-section a {
+  margin-top: 30px;
 }
 
 
