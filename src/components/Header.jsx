@@ -1,4 +1,6 @@
 // Header.jsx (con prop di app.jsx)
+// importo la navbar
+import Navbar from "./Navbar";
 
 export default function Header({ links }) {
 
@@ -9,16 +11,7 @@ export default function Header({ links }) {
             <a href=""><img src="../src/assets/img/dc-logo.png" alt="" /></a>
         </div>
         <div>
-            <nav>
-                <ul className="lista-nav">
-                    {links.map((link, index) => (
-
-                        <li key={index}><a href={link.url}>{link.tag}</a></li>
-
-                    ))}
-
-                </ul>
-            </nav>
+            <Navbar links={links} />
         </div>
     </header>);
 }
