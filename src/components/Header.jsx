@@ -1,5 +1,18 @@
 // Header.jsx
 export default function Header() {
+
+    const navLinks = [
+        { tag: "CHARACTERS", url: "#", content: true },
+        { tag: "COMICS", url: "#", content: true },
+        { tag: "MOVIES", url: "#", content: true },
+        { tag: "TV", url: "#", content: true },
+        { tag: "GAMES", url: "#", content: true },
+        { tag: "COLLECTIBLES", url: "#", content: true },
+        { tag: "VIDEOS", url: "#", content: true },
+        { tag: "FANS", url: "#", content: true },
+        { tag: "NEWS", url: "#", content: true },
+        { tag: "SHOP", url: "#", content: true },
+    ];
     return (<header>
 
         <div>
@@ -8,19 +21,15 @@ export default function Header() {
         <div>
             <nav>
                 <ul className="lista-nav">
-                    <li><a href="">CHARACTERS</a></li>
-                    <li><a href="">COMICS</a></li>
-                    <li><a href="">MOVIES</a></li>
-                    <li><a href="">TV</a></li>
-                    <li><a href="">GAMES</a></li>
-                    <li><a href="">COLLECTIBLES</a></li>
-                    <li><a href="">VIDEOS</a></li>
-                    <li><a href="">FANS</a></li>
-                    <li><a href="">NEWS</a></li>
-                    <li><a href="">SHOP</a></li>
+                    {navLinks.map((link, index) => (
+
+                        <li key={index}><a href={link.url}>{link.tag}</a></li>
+
+                    ))}
 
                 </ul>
             </nav>
         </div>
     </header>);
 }
+
