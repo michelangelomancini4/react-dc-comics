@@ -74,7 +74,11 @@ main {
 
 /* regole sezione principale del main */
 .main-container {
-  padding: 3%;
+  background-color: rgb(241, 155, 16);
+  list-style: none;
+  display: flex;
+  /* justify-content: space-evenly; */
+  padding: 30px;
 }
 
 
