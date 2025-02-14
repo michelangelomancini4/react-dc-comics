@@ -5,6 +5,13 @@ import ProductList from "./products/ProductList";
 // Main.jsx
 export default function Main() {
     return (<main>
+
+        {/* <img src="../src/assets/img/jumbotron.png" alt="" /> */}
+        <div className="jumbotron">
+            <div>
+                <h3><strong>CURRENT SERIES</strong></h3>
+            </div>
+        </div>
         < ProductList />
 
         <ul className="shop-list">

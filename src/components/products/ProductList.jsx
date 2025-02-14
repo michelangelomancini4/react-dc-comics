@@ -167,7 +167,6 @@ export default function ProductList() {
     return (
         <div className="main-container">
 
-
             {comics.map((comic) => (
 
                 < ProductCard key={comic.id} title={comic.title}
