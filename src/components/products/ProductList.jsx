@@ -153,4 +153,12 @@ const comics = [
     },
 ];
 
-export default comics
+
+
+// ProductList.jsx
+export default function ProductList() {
+    return (
+        <p className="main-container">Qui andrà todos il contenuto principale</p>
+
+    );
+}

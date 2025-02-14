@@ -1,7 +1,10 @@
+import ProductList from "./products/ProductList";
+
+
 // Main.jsx
 export default function Main() {
     return (<main>
-        <p className="main-container">Qui andrà il contenuto principale</p>
+        < ProductList />
 
         <ul className="shop-list">
             <li><a href=""><img src="../src/assets/img/buy-comics-digital-comics.png" alt="" />DIGITAL COMICS</a></li>
