@@ -4,8 +4,8 @@ import ProductList from "./ProductList";
 export default function ProductCard({ title, thumb }) {
     return (
         <div >
-            <img src={thumb} alt={title} />
-            <h2>{title}</h2>
+            <img className="comicimg" src={thumb} alt={title} />
+            <h4>{title}</h4>
 
         </div>
     );
